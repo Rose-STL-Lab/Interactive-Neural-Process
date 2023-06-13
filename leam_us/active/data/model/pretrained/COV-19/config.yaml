@@ -2,7 +2,7 @@ base_dir: data/model
 log_level: INFO
 data:
   batch_size: 128
-  dataset_dir: data/data/test_data
+  dataset_dir: data/data
   graph_pkl_filename: data/sensor_graph/adj_mx.pkl
   test_batch_size: 128
 model:
