@@ -23,21 +23,21 @@ Stochastic simulations such as large-scale, spatiotemporal, age-structured epide
 
 ### Reaction Diffusion
 ```
-cd reaction_diffusion/
+cd Interactive-Neural-Process/reaction_diffusion/
 wget -O data.zip https://roselab1.ucsd.edu/seafile/f/f6145ace6c984256904f/?dl=1
 unzip data.zip
 ```
 
 ### Heat
 ```
-cd heat/
+cd Interactive-Neural-Process/heat/
 wget -O data.zip https://roselab1.ucsd.edu/seafile/f/1457be6debeb484fb72c/?dl=1
 unzip data.zip
 ```
 
 ### LEAM-US
 ```
-cd leam_us/active/data
+cd Interactive-Neural-Process/leam_us/active/data
 wget -O data.zip https://roselab1.ucsd.edu/seafile/f/766ef6512667486b8b2c/?dl=1
 unzip data.zip
 cp -r data ../../offline/data
@@ -49,43 +49,43 @@ cp -r data ../../offline/data
 
 ### SEIR
 ```
-cd seir/
+cd Interactive-Neural-Process/seir/
 python seir.py
 ```
 
 ### Reaction Diffusion (Active Learning)
 ```
-cd reaction_diffusion/active
+cd Interactive-Neural-Process/reaction_diffusion/active
 python rd_active_lig.py
 ```
 
 ### Reaction Diffusion (Surrogate Modeling)
 ```
-cd reaction_diffusion/offline
+cd Interactive-Neural-Process/reaction_diffusion/offline
 python rd_offline_stnp.py
 ```
 
 ### Heat (Active Learning)
 ```
-cd heat/active
+cd Interactive-Neural-Process/heat/active
 python heat_active_lig.py
 ```
 
 ### Heat (Surrogate Modeling)
 ```
-cd heat/offline
+cd Interactive-Neural-Process/heat/offline
 python heat_offline_stnp.py
 ```
 
 ### LEAM-US (Active Learning)
 ```
-cd leam_us/active
+cd Interactive-Neural-Process/leam_us/active
 python leam_us_active_lig.py --config_filename=data/model/dcrnn_cov.yaml
 ```
 
 ### LEAM-US (Surrogate Modeling)
 ```
-cd leam_us/offline
+cd Interactive-Neural-Process/leam_us/offline
 python leam_us_offline_stnp.py --config_filename=data/model/dcrnn_cov.yaml
 ```
 
