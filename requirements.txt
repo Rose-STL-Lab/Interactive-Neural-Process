@@ -1,6 +1,6 @@
 gpytorch==1.11
 matplotlib==3.7.1
-numpy==1.24.3
+numpy>=1.23.5
 pandas==2.0.2
 PyYAML==6.0
 scikit_learn==1.2.2
